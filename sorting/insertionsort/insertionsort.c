@@ -80,12 +80,11 @@ void main()
 for(;;)
 {
 int key;
-printf("ENTER THE CHOICE \n1.TO TEST \n2.TO PLOT\nO
-EXIT\n");
+printf("ENTER THE CHOICE \n1.TO TEST \n2.TO PLOT\nOEXIT\n");
 scanf("%d",&key);
 switch(key)
 {
-TOcase 1:tester();break;
+case 1:tester();break;
 case 2:plotter();break;
 default:exit(1);
 }
